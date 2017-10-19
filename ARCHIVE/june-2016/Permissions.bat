@@ -1,0 +1,21 @@
+icacls . /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls css /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)RX
+icacls fonts /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)RX
+icacls html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls img /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)R
+icacls jan-2016 /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls js /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls site2015-rain /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls site2015-summer /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls 404.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls can-you-smell-gas.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls favicon.ico /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls gas-facts.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls gas-meters.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls index.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls maintain.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls privacy.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls terms.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls why-choose-gas.html /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+icacls web.config /grant "IIS APPPOOL\yourgas.com.au":(OI)(CI)M
+pause

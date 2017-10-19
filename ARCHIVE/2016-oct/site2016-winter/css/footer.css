@@ -1,0 +1,288 @@
+.footer-wrap {
+    position: relative;
+}
+
+.footer-bg {
+    background: url(../img/footer-bg.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 350px;
+    max-width: 1807px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .footer-bg {
+        height: 380px;
+    }
+}
+@media only screen and (min-width:992px) {
+	 .footer-bg {
+	 height: 438px;
+	}
+}
+
+@media only screen and (min-width:1700px) {
+    .footer-bg {
+        background-size: contain;
+    }
+}
+
+
+/*clouds and bees*/
+
+@-webkit-keyframes fly-cloud-right {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: 100%;
+    }
+}
+
+@-moz-keyframes fly-cloud-right {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: -100%;
+    }
+}
+
+@-o-keyframes fly-cloud-right {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: -100%;
+    }
+}
+
+@keyframes fly-cloud-right {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: 100%;
+    }
+}
+
+@-webkit-keyframes fly-cloud-left {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@-moz-keyframes fly-cloud-left {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+@-o-keyframes fly-cloud-left {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+@keyframes fly-cloud-left {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+.cloud-one {
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    background: url(../img/cloud-01.png) no-repeat;
+    background-size: contain;
+    left: 35%;
+    -webkit-animation: fly-cloud-left 110s infinite linear;
+    -moz-animation: fly-cloud-left 110s infinite linear;
+    -o-animation: fly-cloud-left 110s infinite linear;
+    -ms-animation: fly-cloud-left 110s infinite linear;
+    animation: fly-cloud-left 110s infinite linear;
+    z-index: -1;
+}
+
+.cloud-two {
+    position: absolute;
+    width: 165px;
+    height: 97px;
+    background: url(../img/cloud-02.png) no-repeat;
+    background-size: contain;
+    right: 16%;
+    top: -188px;
+    -webkit-animation: fly-cloud-right 100s infinite linear;
+    -moz-animation: fly-cloud-right 100s infinite linear;
+    -o-animation: fly-cloud-right 100s infinite linear;
+    -ms-animation: fly-cloud-right 100s infinite linear;
+    animation: fly-cloud-right 100s infinite linear;
+    z-index: -1;
+}
+
+.footer-contents {
+    max-width: 1160px;
+    position: absolute;
+    margin: 0 auto;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.footer-character {
+    width: 180px;
+    height: 188px;
+    background: url('../img/character-egg-dog.png') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    left: calc(50% - 100px);
+    left: -webkit-calc(50% - 100px);
+    left: -moz-calc(50% - 100px);
+    z-index: 99;
+}
+
+@media only screen and (min-width:768px) {
+    .footer-character {
+        width: 237px;
+        height: 236px;
+        left: 45%;
+        left: calc(50% - 92px);
+        left: -webkit-calc(50% -92px);
+        left: -moz-calc(50% - 92px);
+    }
+}
+
+@media only screen and (min-width:991px) {
+    .footer-character {
+        width: 273px;
+        height: 254px;
+        background-size: cover;
+        left: 45%;
+        left: calc(50% - 100px);
+        left: -webkit-calc(50% - 100px);
+        left: -moz-calc(50% - 100px);
+    }
+}
+
+.tree {
+    width: 50px;
+    height: 110px;
+    background: url(../img/tree.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 8%;
+    top: -10px;
+}
+
+@media only screen and (min-width:540px) {
+    .tree {
+        width: 54px;
+        height: 120px;
+        right: 11%;
+        top: -12px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .tree {
+        width: 85px;
+        height: 167px;
+        right: 15%;
+        top: -17px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .tree {
+        width: 85px;
+        height: 167px;
+        right: 16%;
+        top: -24px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .tree {}
+}
+
+@media only screen and (min-width:1700px) {
+    .tree {
+        top: 32px;
+    }
+}
+
+.footer-bottom-inner {
+    position: absolute;
+    height: 164px;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+}
+
+@media only screen and (min-width:768px) {
+    .footer-bottom-inner {
+        height: 120px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .footer-bottom-inner {
+        height: 140px;
+    }
+    .footer-bottom-inner img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .footer-bottom-inner {
+        height: 120px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+.main_footer_img {
+	margin-left:20px;
+}
+}
+
+@media only screen and (max-width: 767px){
+#footer_text {
+    position: absolute;
+    top: 90px!important;
+    left: 88px;
+    max-width: 100%;
+}
+#footer_text p{
+	display: block;
+}
+#footer_text > p:nth-child(2){
+	float:left;
+}
+}
+@media only screen and (max-width: 540px){
+	#footer_text {
+      top:85px!important;
+      max-width: -webkit-calc(100% - 88px);
+      max-width: -moz-calc(100% - 88px);
+      max-width: calc(100% - 88px);
+	}
+	}
